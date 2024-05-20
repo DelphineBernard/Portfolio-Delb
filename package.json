@@ -4,7 +4,7 @@
   },
   "name": "portfolio-v3",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "./src/index.html",
   "type": "module",
   "dependencies": {
     "ansi-regex": "^6.0.1",
