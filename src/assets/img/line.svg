@@ -1,0 +1,11 @@
+<svg viewBox="0 0 190 160" preserveAspectRatio="xMidYMid meet">
+  <mask id="mymask">
+    <path stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-dasharray="3"
+        stroke-dashoffset="3" d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
+  </mask>
+  <image mask="url(#mymask)" href="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2029&q=80" preserveAspectRatio="xMidYMid slice" height="200" width="200"/>
+  
+</svg>

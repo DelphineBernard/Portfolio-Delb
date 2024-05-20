@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-italic {
+      font-style: italic;
+    }
+    .text-shadow {
+      text-shadow:0 0 20px #ffd988,5px 9px 5px rgba(0, 0, 0, 0.5), 0 0 0.2rem #ffac74;color:#ffffff;
+      background-color:#000000;
+    }
+  }

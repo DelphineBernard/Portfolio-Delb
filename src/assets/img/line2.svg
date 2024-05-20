@@ -1,0 +1,7 @@
+        <svg viewBox="0 0 190 160" preserveAspectRatio="xMidYMid meet">
+              <path stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-dasharray="3"
+                  stroke-dashoffset="3" d="M 10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="red"/>
+                  </svg>

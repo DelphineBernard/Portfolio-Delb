@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="home relative pt-12 custom-shape-divider-bottom-1713187438 bg-[#191A33]">
+        <header class="bg-white">
+            <nav class="w-full shadow fixed top-0 bg-white py-4 z-50" id="nav-menu">
+                <div class="container mx-auto px-4 flex items-start md:items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <a href="/"><span class="font-logo font-extralight text-2xl">Del B.</span></a>
+                    </div>
+                    <ul class="hidden text-center pt-12 md:p-0 pb-4 space-y-8 md:space-y-0 md:flex md:space-x-10 text-gray-600 font-bold text-sm uppercase font-nunito"
+                        id="menu">
+                        <li class="hover:text-indigo-500 hover:underline hover:underline-offset-8 decoration-2"><a
+                                href="#about">A propos</a></li>
+                        <li class="hover:text-indigo-500 hover:underline hover:underline-offset-8 decoration-2"><a
+                                href="#skills">Compétences</a></li>
+                        <li class="hover:text-indigo-500 hover:underline hover:underline-offset-8 decoration-2"><a
+                                href="#projects">Projets</a></li>
+                        <li class="hover:text-indigo-500 hover:underline hover:underline-offset-8 decoration-2"><a
+                                href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="toggle-btn"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        aria-expanded="false">
+                        <span class="sr-only">Ouvrir le menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+
+                </div>
+            </nav>
+        </header>
+
+        <div class="h-screen px-12 flex flex-col md:flex-row content-center justify-center font-oswald">
+            <img class="mx-auto max-w-sm md:block md:max-w-[80%] max-h-[80%] md:my-auto"
+                src="./assets/img/woman-dev.png" alt="">
+            <div class="hom flex flex-col justify-center text-center text-slate-700 p-2 gap-8">
+
+                <hgroup
+                    class="flex flex-col gap-4 z-20  bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
+                    <h1
+                        class="color-change py-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold font-raleway text-shadow inline-block bg-gradient-to-r from-yellow-500 to-pink-500 bg-clip-text text-transparent">
+                        DELPHINE BERNARD</h1>
+                    <p
+                        class="text-2xl sm:text-3xl md:text-4xl inline-block font-extrabold bg-gradient-to-r from-yellow-300 to-pink-500 bg-clip-text text-transparent">
+                        Développeuse Web</p>
+                    <p
+                        class="text-2xl sm:text-3xl md:text-4xl inline-block font-extrabold bg-gradient-to-r from-yellow-300 to-pink-500 bg-clip-text text-transparent">
+                        Javascript</p>
+                </hgroup>
+                <img class="plane absolute top-[15%] left-0 w-2/12 lg:w-1/12" src="./assets/img/planesvg.svg" alt="paper plane">
+                <div class="text-slate-800 flex justify-center gap-4 z-10 py-4">
+
+                    <a href="https://github.com/DelphineBernard"
+                        class="[&>svg]:h-6 [&>svg]:w-6 sm:[&>svg]:h-8 sm:[&>svg]:w-8 border border-red-200 hover:text-slate-800 hover:border-red-200 hover:scale-110 rounded-full p-2 hover:animate-bounce transition delay-500 bg-gradient-to-t from-[#d299c2] to-[#ffecd2]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/delphine-bernard24/"
+                        class="[&>svg]:h-6 [&>svg]:w-6 sm:[&>svg]:h-8 sm:[&>svg]:w-8 border border-red-200 hover:text-slate-800 hover:border-red-200 hover:scale-110 rounded-full p-2 hover:animate-bounce bg-gradient-to-t from-[#d299c2] to-[#ffecd2]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                            <path
+                                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:delbernard@yahoo.com"
+                        class="[&>svg]:h-6 [&>svg]:w-6 sm:[&>svg]:h-8 sm:[&>svg]:w-8 border border-red-200 hover:text-slate-800 hover:border-red-200 hover:scale-110 rounded-full p-2 hover:animate-bounce bg-gradient-to-t from-[#d299c2] to-[#ffecd2]">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+            <path fill="#eef2ff" fill-opacity="1"
+                d="M0,160L80,144C160,128,320,96,480,106.7C640,117,800,171,960,176C1120,181,1280,139,1360,117.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+
+    </div>
+
+    <main class="font-nunito">
+        <section id="about"
+            class="h-screen sm:px-8 md:px-16 lg:px-60 flex flex-col justify-center bg-gradient-to-b from-indigo-50 via-slate-50 to-white">
+
+            
+            <div 
+                class=" flex flex-col sm:gap-12 border bg-white/50 border-slate-300 rounded-lg p-4 mb-8 sm:mb-0 md:p-12 lg:p-16 shadow-2xl z-20">
+                <h2
+                    class="font-extrabold uppercase text-2xl sm:text-4xl p-8 inline-block bg-gradient-to-b from-indigo-800 via-indigo-600 to-orange-400 bg-clip-text text-transparent ">
+                    A propos</h2>
+
+                <div data-splitting class="flex flex-col text-reveal gap-8">
+                    <p>Après 11 ans au service du public au sein de la CAF, j'ai souhaité revenir vers ma première
+                    passion : l'informatique.</p>
+                    <p>Initialement formée en maintenance et support informatique, le développement web a toujours
+                        attisé ma curiosité par son aspect créatif et ses challenges.</p>
+                    <p>Après avoir testé ma logique avec la résolution de problèmes algorithmiques avec le langage
+                        Python, j'ai décidé de sauter le pas de la reconversion en me formant au métier de
+                        développeur web auprès de l'école O'clock depuis septembre 2023.</p>
+                    <p
+                        class=" font-bold text-center text-indigo-800 py-4">
+                        Afin de mettre mes compétences en pratique, je recherche un stage pour la période du 19 juin au 14
+                        août 2024.</p>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="skills"
+            class="min-h-screen text-white bg-slate-950 bg-[url('./assets/img/bg.jpg')] bg-cover bg-center">
+            <div class="custom-shape-divider-top-1713025656 bg-indigo-950 bg-opacity-90">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none" fill="#ffffff">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="bg-indigo-950 bg-opacity-90 h-screen flex flex-col justify-between">
+
+                <div class="p-8 sm:pl-16 flex items-center gap-4">
+                    <svg class="skills_icon hidden md:block" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                        fill="none" viewBox="0 0 200 200" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g clip-path="url(#clip0_133_2)">
+                            <path fill="url(&quot;#SvgjsLinearGradient1757&quot;)" fill-rule="evenodd"
+                                d="M50.714 0h-50v50c0 25.462 19.033 46.479 43.647 49.6C19.401 102.402 0 123.578 0 149.286v50h50c25.462 0 46.479-19.033 49.6-43.647 2.802 24.96 23.978 44.361 49.686 44.361h50v-50c0-25.462-19.033-46.479-43.647-49.6C180.599 97.598 200 76.422 200 50.714v-50h-50c-25.462 0-46.479 19.033-49.6 43.647C97.598 19.401 76.422 0 50.714 0Z"
+                                clip-rule="evenodd"></path>
+                        </g>
+                        <defs>
+                            <linearGradient gradientTransform="rotate(0 0.5 0.5)" id="SvgjsLinearGradient1757">
+                                <stop stop-opacity=" 1" stop-color="#fecaca" offset="0"></stop>
+                                <stop stop-opacity=" 1" stop-color="#fee2e2" offset="0.48"></stop>
+                                <stop stop-opacity=" 1" stop-color="#f9a8d4" offset="1"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h2
+                        class="font-extrabold uppercase text-2xl sm:text-4xl inline-block bg-gradient-to-r from-indigo-100 via-slate-200 to-indigo-100 bg-clip-text text-transparent">
+                        Compétences</h2>
+                </div>
+                <div>
+                    <h3
+                        class="uppercase text-center text-sm sm:text-base before:content-['<'] before:text-red-500 before:font-bold after:content-['/>'] after:text-red-500 after:font-bold">
+                        Front-end </h3>
+
+                    <ul class="flex flex-row flex-wrap gap-4 justify-center mx-auto py-8">
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/React.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">React</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/JavaScript.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Javascript</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/TailwindCSS.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Tailwind</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/Sass.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">SASS</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/CSS3.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">CSS</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/HTML5.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">HTML</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid">
+                    <h3
+                        class="uppercase text-center text-sm sm:text-base before:content-['<'] before:text-red-500 before:font-bold after:content-['/>'] after:text-red-500 after:font-bold">
+                        Back-end </h3>
+                    <ul class="flex flex-row flex-wrap gap-4 justify-center mx-auto py-8">
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/Node.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Node</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/Express.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Express</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/PostgresSQL.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">PostgreSQL</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/sequelize.png" alt="" class="max-w-8">
+                            <p class="text-xs sm:text-sm">Sequelize</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24 py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/api-rest.png" alt="" class="max-w-11">
+                            <p class="text-xs sm:text-sm">API</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid">
+                    <h3
+                        class="uppercase text-center text-sm sm:text-base before:content-['<'] before:text-red-500 before:font-bold after:content-['/>'] after:text-red-500 after:font-bold">
+                        Outils </h3>
+                    <ul class="flex flex-row flex-wrap gap-4 justify-center mx-auto py-8">
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src=" ./assets/img/icons/Github.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Github</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/VSCode.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">VSCode</p>
+                        </li>
+                        <li
+                            class="flex flex-col items-center justify-center gap-4 rounded-xl w-20 h-20 sm:w-24 sm:h-24  py-6 px-6 shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-slate-300 hover:scale-110 bg-gradient-to-b from-[#afb7f2]/40 to-[#211d3e] hover:brightness-125">
+                            <img src="./assets/img/icons/Insomnia.svg" alt="" class="max-w-10">
+                            <p class="text-xs sm:text-sm">Insomnia</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="bg-indigo-950 bg-opacity-90">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+                    <path fill="#f8fafc" fill-opacity="1"
+                        d="M0,160L80,144C160,128,320,96,480,106.7C640,117,800,171,960,176C1120,181,1280,139,1360,117.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+
+        <section id="projects"
+            class="min-h-screen p-4 pt-24 md:pb-24 bg-gradient-to-b from-slate-50 via-slate-100 to-slate-50">
+            <h2
+                class="font-extrabold uppercase text-2xl sm:text-4xl p-8 sm:pl-16 md:pb-20 inline-block bg-gradient-to-b from-indigo-800 via-indigo-600 to-orange-400 bg-clip-text text-transparent">
+                Projets</h2>
+
+            <div
+                class="slider flex flex-col gap-4 md:gap-20 lg:max-w-[80%] md:[&>*:nth-child(odd)]:flex-row-reverse mx-auto">
+
+                <article
+                    class="slide flex flex-col items-center rounded-lg shadow-2xl md:flex-row sm:mx-12 hover:shadow-slate-800 bg-center bg-[url('./assets/img/line.svg')] bg-cover">
+                    <img class="object-contain max-w-full rounded-t-lg h-auto md:h-auto md:w-1/2 md:rounded-none md:rounded-e-lg"
+                        src="./assets/img/shifumi-pc.png" alt="">
+                    <div class="flex flex-col justify-between p-6 leading-normal gap-4 ">
+                        <h3 class="mb-2 text-xl sm:text-2xl font-bold tracking-tight text-gray-900">Shifumi</h3>
+                        <div class="flex">
+                            <a href="http://my-shifumi.surge.sh/"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 shadow-lg shadow-indigo-500/50 me-2 mb-2 text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Live
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/DelphineBernard/Shifumi"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-indigo-300 shadow-2xl shadow-indigo-500/50 me-2 mb-2  text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Github
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="mb-3 font-normal text-gray-800">Premier projet personnel créé à la
+                            fin du module Javascript front afin de pratiquer le DOM Javascript.</p>
+                        <p class="flex flex-wrap gap-2 md:leading-8">
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">HTML</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">SCSS</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">Javascript</span>
+                        </p>
+                    </div>
+
+                </article>
+
+                <article
+                    class="slide flex flex-col items-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-lg shadow-2xl md:flex-row sm:mx-12 hover:shadow-slate-800">
+                    <img class="object-contain max-w-full border rounded-t-lg h-auto md:h-auto md:w-1/2 md:rounded-none md:rounded-s-lg"
+                        src="./assets/img/superfit.png" alt="">
+                    <div class="flex flex-col justify-between p-6 leading-normal gap-4 ">
+                        <h3 class="mb-2  text-xl sm:text-2xl font-bold tracking-tight text-gray-900">Superfit</h3>
+                        <div class="flex">
+                            <!-- <a href="https://superfit.onrender.com/"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 shadow-lg shadow-indigo-500/50 me-2 mb-2 text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Live
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a> -->
+                            <a href="https://github.com/DelphineBernard/Superfit"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-indigo-500 via-indigo-600 to-indigo-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-indigo-300 shadow-lg shadow-indigo-500/50 me-2 mb-2  text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Github
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                        <p class="mb-3 font-normal text-gray-800">Projet back-end en Node.js et base
+                            de donnée PostgreSQL. Landing page avec gestion de l'authentification.</p>
+                        <p class="flex gap-2 md:leading-8">
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">Node.js</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">Express.js</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">PostgreSQL</span>
+                        </p>
+                    </div>
+
+                </article>
+
+                <article
+                    class="slide flex flex-col items-center bg-gradient-to-r from-slate-50 to-slate-100 rounded-lg shadow-2xl md:flex-row sm:mx-12 hover:shadow-slate-800">
+                    <img class="object-contain max-w-full border rounded-t-lg h-auto md:h-auto md:w-1/2 md:rounded-none md:rounded-e-lg"
+                        src="./assets/img/necroland.png" alt="">
+                    <div class="flex flex-col justify-between p-6 leading-normal gap-4 ">
+                        <h3 class="mb-2  text-xl sm:text-2xl font-bold tracking-tight text-gray-900">Projet de fin de formation (en cours) </h3>
+                        <!-- <div class="flex">
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-slate-700 via-slate-800 to-black hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 shadow-lg shadow-indigo-500/50 me-2 mb-2 text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Live
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                                </svg>
+                            </a>
+                            <a href="#"
+                                class="inline-flex items-center px-4 py-1.5 text-sm font-medium text-center bg-gradient-to-r from-slate-700 via-slate-800 to-black hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-indigo-300 shadow-lg shadow-indigo-500/50 me-2 mb-2  text-white bg-indigo-700 rounded-lg hover:bg-indigo-800">
+                                Github
+                                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div> -->
+                        <p class="mb-3 font-normal text-gray-800">Projet réalisé
+                            en groupe de la conception à la livraison (de mi-avril à mi-juin 2024)</p>
+                        <p class="flex flex-wrap gap-2 md:leading-8">
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">HTML</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">SCSS</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">React.js</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">Node.js</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">PostgreSQL</span>
+                            <span
+                                class="bg-indigo-900 text-indigo-50 text-xs md:text-sm font-medium me-2 px-2.5 py-0.5 rounded-full border border-solid border-indigo-300">API</span>
+                        </p>
+                    </div>
+
+                </article>
+            </div>
+
+        </section>
+
+
+        <section id="contact" class="bg-slate-50">
+            <div
+                class="color-reveal flex flex-col items-center justify-center h-screen px-4 bg-[url('./assets/img/blob2.svg')] bg-cover lg:bg-contain bg-center bg-no-repeat bg-slate-50">
+                <h2
+                    class="font-extrabold uppercase text-2xl sm:text-4xl py-8 inline-block bg-gradient-to-b from-indigo-800 via-indigo-600 to-orange-400 bg-clip-text text-transparent">
+                    Contact</h2>
+                <p class="pt-12 text-left ">Si vous avez apprécié mon portfolio...</p>
+                <p class="pt-12 text-right">ou si vous souhaitez en savoir plus...</p>
+                <p class="pt-12">N'hésitez pas à me contacter !</p>
+
+                <div class="flex flex-col justify-center pt-6">
+                    <div class="flex justify-center space-x-4 py-8 text-slate-700">
+
+                        <a href="https://github.com/DelphineBernard"
+                            class="rounded-xl border border-red-200 hover:border-indigo-400 p-3 leading-normal shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-500 bg-gradient-to-br from-orange-200 via-rose-200 to-violet-200"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="flex flex-col items-center sm:flex-row gap-2 mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg> Github
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/delphine-bernard24/"
+                            class="rounded-xl border border-red-200 hover:border-indigo-400 p-3 leading-normal shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-500 bg-gradient-to-br from-orange-200 via-rose-200 to-violet-200"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="flex flex-col items-center sm:flex-row gap-2 mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                </svg> Linkedin
+                            </span>
+                        </a>
+                        <a href="mailto:delbernard@yahoo.com"
+                            class="rounded-xl border border-red-200 hover:border-indigo-400 p-3 leading-normal shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-500 bg-gradient-to-br from-orange-200 via-rose-200 to-violet-200"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="flex flex-col items-center sm:flex-row gap-2 mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                                </svg> E-mail
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- </div> -->
+    </main>
+
+    <footer class="bg-indigo-950 text-indigo-100 pb-4">
+        <div class="custom-shape-divider-top-1713025656">
+            <svg data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none" fill="#f8fafc">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+            <div class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row">
+                <ul
+                    class="self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
+                    <li><a href="#about" class="hover:text-indigo-300">A propos</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-300">Compétences</a></li>
+                    <li><a href="#projects" class="hover:text-indigo-300">Projets</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-300">Contact</a></li>
+                </ul>
+                <div class="flex flex-col justify-center pt-4 lg:pt-0">
+                    <div class="flex justify-center space-x-4">
+
+                        <a href="https://github.com/DelphineBernard"
+                            class="rounded-full border border-indigo-100 p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-300"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 496 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/delphine-bernard24/"
+                            class="rounded-full border border-indigo-100 p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-300"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+                                    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                                    <path
+                                        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                                </svg>
+                            </span>
+                        </a>
+                        <a href="mailto:delbernard@yahoo.com"
+                            class="mx-auto rounded-full border border-indigo-100 p-3 uppercase leading-normal text-white shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:text-indigo-300"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            <span class="[&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8">
+            <span class="block text-sm text-indigo-100 text-center">© Copyright 2024 Delphine
+                Bernard. Made by ❤️</span>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script type="module" src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
