@@ -77,8 +77,8 @@ gsap.utils.toArray('.slide').forEach((slide, index) => {
     ScrollTrigger.create({
         animation: gsap.fromTo(slide, { x: fromX, opacity: 0 }, { x: toX, opacity: 1 }),
         trigger: slide,
-        start: 'top 90%',
-        end: 'bottom 40%',
+        start: 'top bottom',
+        end: 'bottom 70%',
         scrub: true,
     });
 });
