@@ -2,31 +2,6 @@
 
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);
 
-// ** animation accueil ** 
-
-gsap.to('.plane', {
-    scrollTrigger: {
-        trigger: '.plane',
-        start: 'top',
-        end: 'bottom',
-        scrub: true,
-      },
-    transformOrigin: '50% 50%',
-    motionPath: {
-      path: [
-        {x: '50vw', y: '40vh'},
-        {x: '40vw', y: '20vh'},
-        {x: '30vw', y: '40vh'},
-        {x: '50vw', y: '60vh'},
-        {x: '100vw', y: '70vh'},
-      ],
-      curviness: 1.25,
-      autoRotate: true,
-    },
-    duration: 500,
-    ease: "power1.inOut"
-  })
-
 // ** animation A propos **
 
 let text = Splitting();
@@ -45,7 +20,7 @@ tlAbout.from(text[0].chars, {
     scaleY: 0,
     color: 'rgb(13,13,13)',
     stagger: 0.01,
-    duration: 0.05,
+    duration: 0.02,
 });
 
 // ** animation SVG compétences **
@@ -79,11 +54,11 @@ const skills = document.querySelectorAll('#skills ul')
 let tlSkills = gsap.timeline();
 
 gsap.utils.toArray(skills).forEach(skill => {
-    const fromY = '40%';
+    const fromY = '5%';
     const toY = '0%';
 
     ScrollTrigger.create({
-        animation: gsap.fromTo(skill, { y: fromY, opacity: 0.2 }, { y: toY, opacity: 1 }),
+        animation: gsap.fromTo(skill, { y: fromY, opacity: 0.1 }, { y: toY, opacity: 1 }),
         trigger: skills,
         start: 'top 70%',
         end: 'bottom 40%',
@@ -102,7 +77,7 @@ gsap.utils.toArray('.slide').forEach((slide, index) => {
     ScrollTrigger.create({
         animation: gsap.fromTo(slide, { x: fromX, opacity: 0 }, { x: toX, opacity: 1 }),
         trigger: slide,
-        start: 'top 70%',
+        start: 'top 90%',
         end: 'bottom 40%',
         scrub: true,
     });
